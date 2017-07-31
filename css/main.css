@@ -1,6 +1,192 @@
 body {
-   background: url('../img/architectural-arches-893105.jpg');
-   background-position: center center;
+   margin: 0;
 }
 
+h1 {
+   color: black;
+   font-family:'Lato', sans-serif;
+   font-size: 50px;
+   font-weight: 700;
+   text-align: center;
+   font-style: italic;
+   text-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+   margin-bottom: 2px;
+}
 
+h2 {
+   color: black;
+   font-family:'Lato', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   text-align: center;
+   font-style: italic;
+   margin-bottom: 100px;
+   margin-top: -2px;
+}
+
+h3 {
+   color: black;
+   font-family:'Merriweather', serif;
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center;
+   font-style: italic;
+   margin-top: -90px;
+   width: 600px;
+   margin-left: 380px;
+   text-shadow: 0px 2px 4px rgba(255,255,255,0.7);
+}
+
+#know-more {
+   display:block;
+   margin-top:25px;
+   text-align:center;
+   vertical-align: middle;
+   width:100%;
+}
+
+#know-more a {
+   font-family: 'Merriweather', serif;
+   background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,0.85) 44%, rgba(193,207,216,0.8) 57%, rgba(216,225,231,0.8) 81%, rgba(224,239,249,0.8) 100%);
+   border-radius: 4px;
+   padding: 15px 35px;
+   color: #ffffff;
+   font-size: 18px;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+   text-align: center;
+   vertical-align: middle;
+}
+
+/* .btn {
+   font-family: 'Merriweather', serif;
+   background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,0.85) 44%, rgba(193,207,216,0.8) 57%, rgba(216,225,231,0.8) 81%, rgba(224,239,249,0.8) 100%);
+   border-radius: 4px;
+   padding: 15px 35px;
+   color: #ffffff;
+   font-size: 18px;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+   margin-top: -5px;
+   text-align: center;
+} */
+
+.btn.hover{
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+   -webkit-transition: box-shadow 0.3s ease-in-out 0s;
+   -moz-transition: box-shadow 0.3s ease-in-out 0s;
+   -o-transition: box-shadow 0.3s ease-in-out 0s;
+   -ms-transition: box-shadow 0.3s ease-in-out 0s;
+   transition: box-shadow 0.3s ease-in-out 0s;
+}
+
+.hero{
+   background: url('../img/8.jpg') no-repeat center center;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size:cover;
+   display:table;
+   width:100%;
+}
+
+.hero.hero.container{
+   display:table-cell;
+   text-align:center;
+   vertical-align:middle;
+   height:689px;
+}
+
+.no.bullets{
+   list-style-type: none;
+   font-family:'Merriweather', serif;
+   font-size: 16px;
+   text-align: center;
+   text-decoration: none;
+   padding: -2px;
+   margin-top: 40px;
+}
+
+a{
+   color: black;
+   text-align: center;
+   text-decoration: none;
+   font-size: 15px;
+   font-family:'Lato', sans-serif;
+   font-weight: 400;
+   font-style: italic;
+}
+
+h4{
+   color: black;
+   font-family:'Lato', sans-serif;
+   font-size: 18px;
+   font-weight: 900;
+   text-align: justify;
+   font-style: italic;
+   margin-bottom: 4px;
+   line-height: 20px;
+   margin-left: 10px;
+}
+
+p{
+   color: black;
+   font-family:'Lato', sans-serif;
+   font-size: 17px;
+   font-weight: 400;
+   text-align: left;
+   font-style: italic;
+   margin-bottom: 12px;
+   width: 95%;
+   margin-left: 10px;
+}
+
+h5{
+   color: black;
+   font-family:'Lato', sans-serif;
+   font-size: 18px;
+   font-weight: 900;
+   text-align: justify;
+   font-style: italic;
+   margin-bottom: -10px;
+   line-height: 20px;
+   margin-left: 10px;
+}
+
+h6{
+   color: black;
+   font-family:'Lato', sans-serif;
+   font-size: 18px;
+   font-weight: 900;
+   text-align: justify;
+   font-style: italic;
+   margin-bottom: 10px;
+   line-height: 20px;
+   margin-left: 10px;
+}
+
+footer{
+   font-weight: 400;
+   font-family:'Merriweather', serif;
+   font-size: 13px;
+   margin-top: 8em;
+   color: black;
+   text-align: center;
+   font-style: italic;
+}
+
+h7{
+   color: black;
+   font-family:'Lato', sans-serif;
+   font-size: 15px;
+   font-weight: 900;
+   text-align: justify;
+   font-style: italic;
+   margin-bottom: 10px;
+   line-height: 20px;
+   margin-left: 10px;
+}
